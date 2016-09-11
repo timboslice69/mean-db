@@ -1,0 +1,20 @@
+{
+  "name": "mean-cms",
+  "version": "1.0.0",
+  "description": "CMS Built on the mean stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timboslice69/mean-cms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timboslice69/mean-cms/issues"
+  },
+  "homepage": "https://github.com/timboslice69/mean-cms#readme",
+  "dependencies": {}
+}
