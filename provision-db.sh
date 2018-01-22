@@ -15,11 +15,11 @@ echo "mongodb-org-shell hold" | sudo dpkg --set-selections
 echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
 echo "mongodb-org-tools hold" | sudo dpkg --set-selections
 sudo service mongod stop
-sudo cp /srv/config/mongod.conf /etc/mongod.conf
+sudo cp /config/mongod.conf /etc/mongod.conf
 sudo service mongod start
 
 echo "*** Setup Firewall ***"
-sudo iptables-restore -c < /srv/config/iptables.rules
+sudo iptables-restore -c < /config/iptables.rules
 echo "y" | sudo ufw enable
 
 echo "******************************"
